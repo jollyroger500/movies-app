@@ -1,0 +1,16 @@
+working notes cra with mern
+
+working off of this page:
+https://medium.com/swlh/how-to-create-your-first-mern-mongodb-express-js-react-js-and-node-js-stack-7e8b20463e66
+right after:
+this.props.match.params.id
+
+updating MoviesList.jsx, the error thrown on yarn start:
+
+./src/pages/MoviesList.jsx
+Module not found: Can't resolve 'react-table/react-table.css' in '/Users/bob/Documents/workspace/movies-app/client/src/pages'
+
+I added the react pieces.. through this
+ 1122  yarn add styled-components react-table react-router-dom axios bootstrap
+
+the exact location of the react-table.css is confusing and im not sure where it is..
